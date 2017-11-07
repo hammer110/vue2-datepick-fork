@@ -1,0 +1,66 @@
+{
+  "_from": "vue2-datepick-fork@^1.3.0",
+  "_id": "vue2-datepick-fork@1.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0y46KT6uOBUHn0Avs9ftwiCgMmSjKr7p18QlzglxtTm60wUkgDl1LQI9F8Jhe++HHtyrY8ZVZSoVrZFkHozQPA==",
+  "_location": "/vue2-datepick-fork",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vue2-datepick-fork@^1.3.0",
+    "name": "vue2-datepick-fork",
+    "escapedName": "vue2-datepick-fork",
+    "rawSpec": "^1.3.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.3.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue2-datepick-fork/-/vue2-datepick-fork-1.3.0.tgz",
+  "_shasum": "63877f9072a4f94c289793abf6418be237945a11",
+  "_spec": "vue2-datepick-fork@^1.3.0",
+  "_where": "/Users/liujinjian/workspace/xnxyk_h5/Develop/projects/trunk/oneCard/node_modules",
+  "author": {
+    "name": "hammer110"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "vue2-datepick-fork",
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^3.10.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "vue-hot-reload-api": "^2.0.6",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "keywords": [
+    "vue2-datepick-fork",
+    "vue",
+    "vue2",
+    "vue-calendar",
+    "vue日期选择"
+  ],
+  "main": "./dist/index.js",
+  "name": "vue2-datepick-fork",
+  "private": false,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "webpack-dev-server --hot --port 8889 --host 127.0.0.1"
+  },
+  "version": "1.3.0"
+}
