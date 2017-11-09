@@ -290,7 +290,7 @@ default = {
                         transform: "translate3d(0px, " + this.eY + "px, 0px)",
                         transition: "all ease " + this.t + "s"
                     },
-                    this.curVal = t[parseInt(this.activeItem)].val,
+                    this.curVal = t[(parseFloat(this.activeItem)).toFixed(0)].val,
                     this.$emit("changeCurVal", this.type, this.curVal)
                 }
                 return t
@@ -339,7 +339,7 @@ default = {
                     transform: "translate3d(0px, " + this.eY + "px, 0px)",
                     transition: "all ease " + this.t + "s"
                 },
-                this.curVal = this.dateList[parseInt(this.activeItem)].val, this.$emit("changeCurVal", this.type, this.curVal))
+                this.curVal = this.dateList[(parseFloat(this.activeItem)).toFixed(0)].val, this.$emit("changeCurVal", this.type, this.curVal))
             }
         }
     }
@@ -407,10 +407,10 @@ function(t, e, i) {
         return Object(t)
     }
     /*
-	object-assign
-	(c) Sindre Sorhus
-	@license MIT
-	*/
+    object-assign
+    (c) Sindre Sorhus
+    @license MIT
+    */
     var r = Object.getOwnPropertySymbols,
     a = Object.prototype.hasOwnProperty,
     o = Object.prototype.propertyIsEnumerable;
